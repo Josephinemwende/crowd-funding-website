@@ -1,20 +1,24 @@
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .navbar{
-  display: flex;
-  justify-content: space-around;
   background-image: url('/src/Images/image-hero-mobile.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 250px;
 }
-.navbar li{
-  display: inline;
+.navlinks{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px 0 15px;
 }
-.navbar a{
-  padding: 10px;
+.navbar h1{
+  color: white;
+  font-size: 25px;
+  font-family: 'commissioner', sans-serif;
 }

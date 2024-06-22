@@ -2,12 +2,14 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <h1>crowdfund</h1>
-        <img
-          src="/src/Images/icon-hamburger.svg"
-          style={{ height: "20px" }}
-          alt="Menu-icon"
-        ></img>
+        <div className="navlinks">
+          <h1>crowdfund</h1>
+          <img
+            src="/src/Images/icon-hamburger.svg"
+            style={{ height: "15px" }}
+            alt="Menu-icon"
+          ></img>
+        </div>
       </nav>
     </>
   );
